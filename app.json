@@ -16,17 +16,23 @@
     ],
     "jsEngine": "hermes",
     "ios": {
-       "jsEngine": "jsc",
-       "supportsTablet": true
+      "jsEngine": "jsc",
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.maryna_hlushak.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ae162278-4843-4c97-b1e6-a428a7e03e61"
+      }
     }
   }
 }
